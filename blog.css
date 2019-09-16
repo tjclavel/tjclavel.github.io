@@ -1,0 +1,152 @@
+/*BIOGRAPHY*/
+.bio {
+	border: 1px solid #ddd;
+	margin-top: 10px;
+	padding: 15px;
+	background-color: white;
+	padding-bottom: 40px;
+}
+.propic {
+	padding-bottom: 65%;
+	position: relative;
+	width: 65%;
+	border-radius: 50%;
+	margin: 10% auto;
+	background-image: url('img/propic.jpg');
+	background-size: cover;
+}
+.name {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-weight: 500;
+	letter-spacing: 3px;
+	word-spacing: 4px;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.about {
+	font-family: 'Roboto', serif;
+	font-size: 12px;
+	margin-top: 4px;
+	font-weight: 300;
+}
+	@media (max-width: 767px) {
+		.propic-container {
+		    width: 25%;
+		    display: inline-block;
+		    vertical-align: top;
+			text-align: left;
+		}
+		.name {
+			text-align: left;
+		}
+		.propic {
+			padding-bottom: 80%;
+			width: 80%;
+		}
+		.info {
+			width: 70%;
+			display: inline-block;
+			vertical-align: top;
+		}
+		.bio {
+			padding-bottom: 15px;
+		}
+	}
+	@media (min-width: 991px) {
+		.about {
+			margin-top: 10px;
+		}
+	}
+.social {
+	text-align: center;
+	color: #888;
+	margin-top: 10px;
+}
+.social i {
+	margin: 0 4px;
+}
+
+/*BLOG POST*/
+.post {
+	border: 1px solid #ddd;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	width: 100%;
+	height: 400px;
+	background-image: url('img/test.jpg');
+	background-size: cover;
+	background-color: #fff;
+	position: relative;
+}
+	.text-only {
+		background: none;
+		height: 155px;
+		border: none;
+	}
+.caption {
+	border-top: 1px solid #ddd;
+	padding: 15px;
+	background-color: white;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+	.text-only .caption {
+		border: 1px solid #ddd;
+	}
+.subtitle {
+	overflow: hidden;
+	height: 55px;
+}
+	.text-only .subtitle {
+		height: 95px;
+	}
+.icons {
+	text-align: right;
+}
+	.icons i {
+		font-size: 18px;
+		margin-left: 5px;
+	}
+	.icon {
+		display: inline-block;
+	}
+.count {
+	font-family: 'Roboto', sans-serif;
+	margin-top: -8px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	font-size: 10px;
+}
+.gradient {
+	background: -webkit-linear-gradient(rgba(255,0,0,0), rgba(255,255,255,1)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(255,0,0,0), rgba(255,255,255,1)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(255,0,0,0), rgba(255,255,255,1)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(255,0,0,0), rgba(255,255,255,1)); /* Standard syntax (must be last) */
+	position: absolute;
+	bottom: 1px;
+	width: 95%;
+	height: 70px;
+}
+	.text-only .gradient {
+		height: 95px;
+	}
+
+/* Customize container */
+@media (min-width: 768px) {
+	.container {
+	    max-width: 750px;
+	}
+	.bio-container {
+		padding: 10px;
+	}
+}
+@media (min-width: 992px) {
+	.container {
+	    max-width: 850px;
+	}
+}
+body {
+	background-color: #f8f8f8;
+}

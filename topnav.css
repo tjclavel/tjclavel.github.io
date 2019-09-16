@@ -1,0 +1,51 @@
+/*TITLE NAV BAR*/
+#title {
+	padding: 15px;
+	border-bottom: 1px solid #ddd;
+	background-color: white;
+	transition: top 0.2s ease-in-out;
+}
+	#title a {
+		color: #000;
+	}
+	#title a:hover {
+		color: #555;
+	}
+#blogname {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	letter-spacing: 5px;
+	word-spacing: 5px;
+	font-size: 15px;
+	margin-top: 3px;
+	text-transform: uppercase;
+}
+.nav-up {
+	top: -120px; 
+}
+.follow-count {
+	font-family: 'Arapey', serif;
+	font-size: 16px;
+	margin-right: 10px;
+	letter-spacing: 2px;
+	color: #777;
+}
+#follow {
+	color: black;
+	border: 1px solid black;
+	padding: 9px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+	#follow:hover {
+		text-decoration: none;
+		border: 1px solid #555;
+	}
+	.active#follow {
+		color: white;
+		background-color: #cdcdcd;
+		border: 1px solid #cdcdcd;
+	}
+	.active#follow:hover{
+		color: white;
+	}
